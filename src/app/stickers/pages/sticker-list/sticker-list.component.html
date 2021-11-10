@@ -1,0 +1,14 @@
+<div class="container-my">
+    <app-sticker class="sticker" 
+    [data] = sticker
+    [editing] = false
+    *ngFor="let sticker of stickers"
+  (stickerDelete) = "deleteSticker($event)"
+  (stickerStartEdit) = 'loadItem(sticker.id)'
+  ></app-sticker>
+  <div class="sticker">
+      <div class="container-my" style="align-items: center;justify-content: center;height: 100%; cursor: pointer;" (click)="loadItem(0)">
+          <h2>Добавить новую</h2>
+      </div>
+  </div>
+</div>
