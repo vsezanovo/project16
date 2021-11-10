@@ -77,7 +77,6 @@ export class StickerTypeControlPanelComponent implements OnInit {
       name: values.name
     }
     await this.httpServ.postStickerType(newType)
-    // this.stickerTypePosted.emit()
     this.stickerTypeForm.get('name')?.setValue('None')
     this.getTypes()
   }
@@ -88,7 +87,6 @@ export class StickerTypeControlPanelComponent implements OnInit {
       name: values.name
     }
     await this.httpServ.editStickerType(newType)
-    // this.stickerTypeEdited.emit()
     this.stickerTypeForm.get('name')?.setValue('None')
     this.getTypes()
   }

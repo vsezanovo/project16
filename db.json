@@ -1,25 +1,30 @@
 {
-  "stickers": [],
+  "stickers": [
+    {
+      "title": "Sazsaz",
+      "text": "SAz",
+      "type": {
+        "id": 0,
+        "name": "None"
+      },
+      "typeId": 0,
+      "date": 1636560191959,
+      "lastEdited": 1636560193358,
+      "id": 1
+    }
+  ],
   "types": [
     {
       "id": 0,
       "name": "None"
     },
     {
+      "id": 1,
+      "name": "Saz"
+    },
+    {
       "id": 2,
-      "name": "Time123"
-    },
-    {
-      "id": 4,
-      "name": "s2"
-    },
-    {
-      "id": 5,
-      "name": "Noneddfd"
-    },
-    {
-      "id": 6,
-      "name": "Coll"
+      "name": "Saz2"
     }
   ]
 }
